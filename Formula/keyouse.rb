@@ -13,7 +13,7 @@ class Keyouse < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on xcode: :build
+  # No `depends_on xcode` — `swift build` works with the Command Line Tools alone.
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
