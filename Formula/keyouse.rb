@@ -27,6 +27,12 @@ class Keyouse < Formula
       Optionally Input Monitoring for ⌘Tab window switching.
 
       Run `keyouse` to start; it runs as a menu-bar app and detaches from the terminal.
+
+      "Start at login" installs a LaunchAgent. To remove it (and other leftovers)
+      on uninstall, use:  brew uninstall --zap keyouse
     EOS
   end
+
+  # Removed by `brew uninstall --zap` — the login-at-login LaunchAgent left behind otherwise.
+  zap trash: "~/Library/LaunchAgents/com.keyouse.loginitem.plist"
 end
