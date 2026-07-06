@@ -11,7 +11,7 @@ class Keyouse < Formula
   homepage "https://github.com/yoonhoGo/keyouse"
   url "https://github.com/yoonhoGo/keyouse/releases/download/v0.2.0/keyouse-macos.tar.gz"
   version "0.2.0"
-  sha256 "aa5120b3f53f89d3166ed8344af722e0ba93b265183d4830e06f540144fec364"
+  sha256 "8c265b36feb1ca59617f462157007c7651c1591c408b668772cf07a476c2ce6b"
   license "MIT"
 
   depends_on :macos
