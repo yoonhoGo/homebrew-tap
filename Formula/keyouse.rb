@@ -9,8 +9,8 @@
 class Keyouse < Formula
   desc "Keyboard-driven macOS UI navigator (accessibility-based, like Shortcat)"
   homepage "https://github.com/yoonhoGo/keyouse"
-  url "https://github.com/yoonhoGo/keyouse/releases/download/v0.2.0/keyouse-macos.tar.gz"
-  version "0.2.0"
+  url "https://github.com/yoonhoGo/keyouse/releases/download/v0.4.0/keyouse-macos.tar.gz"
+  version "0.4.0"
   sha256 "ef14af76a1cb87ce950ba65440ee2c6f96c7a8e8b5065fb4b7069f89bd57d9aa"
   license "MIT"
 
