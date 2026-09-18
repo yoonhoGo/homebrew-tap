@@ -9,8 +9,8 @@ cask "ukemi" do
   desc "Desktop GUI for Jujutsu"
   homepage "https://github.com/yoonhoGo/ukemi"
 
-  depends_on macos: :big_sur
   depends_on arch: :arm64
+  depends_on macos: :big_sur
 
   app "Ukemi.app"
 
@@ -18,7 +18,7 @@ cask "ukemi" do
   # attribute that Homebrew propagates from the public DMG.
   postflight_steps do
     run "/usr/bin/xattr",
-        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Ukemi.app"],
+        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Ukemi.app"],
         must_succeed: false
   end
 end
