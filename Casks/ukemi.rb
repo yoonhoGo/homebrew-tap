@@ -1,6 +1,6 @@
 cask "ukemi" do
-  version "0.14.0"
-  sha256 "b2eeb1630569c75b4bc667be8480bf57360f68437e9da35784a182fc4179cba9"
+  version "0.15.0"
+  sha256 "0cb1750ce6c2c81d2a956540236f1eb80f33072b66bbe0ebc0cd7c83b83a7f49"
 
   # The source repository is private. The public tap mirrors this release DMG
   # under the same filename so Homebrew does not need GitHub credentials.
@@ -10,7 +10,7 @@ cask "ukemi" do
   homepage "https://github.com/yoonhoGo/ukemi"
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Ukemi.app"
 
