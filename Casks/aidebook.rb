@@ -1,6 +1,6 @@
 cask "aidebook" do
-  version "0.1.0"
-  sha256 "8156aa7613e73649de7c2acb2580a4affc917ace76f96ff80e56f59a5f1a2097"
+  version "0.1.1"
+  sha256 "b17030f290404b2eb87379f6480497b27e1998f6c5ba258053dd713cb8aec472"
 
   url "https://github.com/yoonhoGo/aidebook/releases/download/v#{version}/Aidebook_#{version}_aarch64.dmg"
   name "Aidebook"
