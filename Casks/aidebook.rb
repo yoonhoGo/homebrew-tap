@@ -14,4 +14,12 @@ cask "aidebook" do
   binary "#{appdir}/Aidebook.app/Contents/MacOS/aidebook-cli", target: "aidebook"
   binary "#{appdir}/Aidebook.app/Contents/MacOS/aidebook-cli"
   binary "#{appdir}/Aidebook.app/Contents/MacOS/aidebook-core"
+
+  # Remove the download quarantine attribute from this app bundle only.
+  # The release remains ad-hoc signed and is not notarized.
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Aidebook.app"],
+        must_succeed: false
+  end
 end
