@@ -1,6 +1,6 @@
 cask "ukemi" do
-  version "0.22.2"
-  sha256 "113780b9950134e295b7518ef25843cfda63287ed0fef5fc1e92483d1229d350"
+  version "0.23.0"
+  sha256 "c54397fb08bae48aa50253f1cefdd5ca3ebe28739259930f198011c1d0ee4a28"
 
   # The source repository is private. The public tap mirrors this release DMG
   # under the same filename so Homebrew does not need GitHub credentials.
