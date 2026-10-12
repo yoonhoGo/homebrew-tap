@@ -7,6 +7,11 @@ cask "aidebook" do
   desc "Local context and workflow for an AI work assistant"
   homepage "https://aidebook.yoonho.site/"
 
+  livecheck do
+    url "https://github.com/yoonhoGo/homebrew-tap.git"
+    regex(/^aidebook-v(\d+(?:\.\d+)+)$/i)
+  end
+
   depends_on arch: :arm64
   depends_on :macos
 
