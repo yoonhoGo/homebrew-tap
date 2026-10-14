@@ -1,6 +1,6 @@
 cask "aidebook" do
-  version "0.2.2"
-  sha256 "332bc59789852e0b0fe2fb615c4a01014b74cfd4fafa1006d351a2330f332c13"
+  version "0.2.3"
+  sha256 "5de467856a13e4711f4ce6eaedc687f6573a6af9261da8861132f24c5f0e91d5"
 
   url "https://github.com/yoonhoGo/homebrew-tap/releases/download/aidebook-v#{version}/Aidebook_#{version}_aarch64.dmg"
   name "Aidebook"
